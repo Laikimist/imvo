@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>IMVU-E.com - The Emporium</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script src="js/-xKcmIUg-0Arix1Cv0g1rYyIe2A.js"></script><link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="top">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/products/">Products</a></li>
+				<li><a href="/services/">Services</a></li>
+				<li><a href="//forum.imvu-e.com/forum/">Forum</a></li>
+				<li><a href="/discord">Discord</a></li>
+				<li><a href="/contact/">Contact</a></li>
+				<li><a href="/vip/"><span class='gold'>VIP</span></a></li>
+				<li style="float: right;">
+				<a href='/vip/manage.php'>Signed in as Laikimist</a>				</li>
+			</ul>
+		</div>
+		<div id="middle">
+			<div id="header">Services</div>
+			<div id="menu">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/products/">Products</a></li>
+					<li><a href="/services/">Services</a></li>
+					<li><a href="//forum.imvu-e.com/forum/">Forum</a></li>
+					<li><a href="/discord">Discord</a></li>
+					<li><a href="/contact/">Contact</a></li>
+					<li><hr></li>
+					<li><a href="/affiliates/">Affiliates</a></li>
+				</ul>
+			</div>
+			<div id="content">
+
+        <link href="css/product_wide.css" rel="stylesheet" type="text/css">
+		<link href="css/product.css" rel="stylesheet" type="text/css">
+		<link href="css/imvu.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/standard.css" media="all" type="text/css" />
+		<style>
+			.section_body {
+				overflow:hidden;
+			}
+			div.widget-product-wide div.ft {
+				width: auto !important;
+			}
+
+			h3 {
+				padding: 0 !important;
+				background: none !important;
+			}
+
+			div.widget-product-wide .thumbnail-container {
+				border: 1px solid white;
+			}
+
+			div.widget-product-wide div.content-wrapper {
+				border: 1px solid white;
+				background: #B2CDE1 !important;
+			}
+
+			img.under18 {
+				width:0px;
+				height:0px;
+				padding: 50px;
+				background: url("https://vgy.me/499asG.png");
+			}
+
+		</style>
+		<script src="js/jquery-3.1.0.js"></script>
+
+		<script>
+			$(document).on('click', 'img.under18', function () {
+				if(confirm('Are you over 18?')) {
+					var date = new Date();
+					date.setTime(date.getTime()+(365*24*60*60*1000));
+					document.cookie = "over18=true; expires="+date.toUTCString()+"; path=/";
+					$('img.under18').removeClass('under18')
+				}
+
+				return false;
+			});
+		</script>
+
+
+<h1>Hidden Outfit Viewer <a class="forum" href='//forum.imvu-e.com/forum/viewforum.php?f=11'>Need help?<br>Report a bug?</a></h1>
+
+Hidden Outfit Viewer will instantly allow you to see any hidden products in the "view products in this scene" feature of IMVU.
+It will also generate a "tryit" link so you can put on the full avatar to buy it all at once or view it as a complete model. <a href="#" id="altWays-show" onclick="showHide('altWays');return false;">See additional ways to unhide &darr;</a>
+<div id="altWays" style="display: none;">
+    <h2>Additional ways to unhide</h2>
+    Alternatively, just change the imvu.com part to imvu-e.com when you want to use this feature, all you have to do is remember
+    to add "-e" and you can view the hidden products without having to navigate to this site. You can install install our <a href="/products/hov/">Hidden Outfit Viewer Bookmarklet</a>.
+</div>
+<br>
+<br>
+Copy and paste the URL for the imvu scene here, and then press "Unhide". <br>
+<form name="input" action="index.php" method="GET">
+    Scene URL: <input type="text" size=50 name="hidden_url" value="" />
+    <input onclick="var e = document.getElementById('loading_animation'); e.style.display = 'block'; var e = document.getElementById('avatar_products'); e.style.display = 'none';" type="submit" value="Unhide" />
+</form><br>
+<h2>Search</h2>
+Search will show all previously unhidden outfits of a user. If someone's outfit was unhidden in a room and a person was present, their outfit will be listed here.<br><br>
+<form name="input" action="index.php" method="GET">
+    Search Avatar Name/ID: <input type="text" size=20 name="avatar_search" value="" />
+    <input onclick="var e = document.getElementById('loading_animation'); e.style.display = 'block'; var e = document.getElementById('avatar_products'); e.style.display = 'none';" type="submit" value="Search" />
+</form>
+<br>
+Opt-out of your outfits being viewed: <a href='/services/hov/paypal.php'>Click here</a>
+<!--
+<br>
+Prevent your room products being viewed: <a href='https://www.imvu.com/shop/product.php?products_id=40714799'>Buy furniture</a>
+<br>
+Prevent your room visitors outfits being viewed: <a href='https://www.imvu.com/shop/product.php?products_id=40767392'>Buy furniture</a>
+-->
+<br><br>
+
+<div id="loading_animation" style="display:none">
+    <center><img src="//i.imgur.com/H2fOK.gif"></center>
+</div>
+<style>
+    #avatar_products {
+        position: relative;
+    }
+
+    .pic {
+        float: left;
+        width: 175px;
+        height: 750px;
+        margin-right: 22px;
+        position: absolute;
+        left: -191px;
+		margin-top: -80px;
+    }
+</style>
+<script>
+    function showHide(shID) {
+        if (document.getElementById(shID)) {
+            if (document.getElementById(shID + '-show').style.display != 'none') {
+                document.getElementById(shID + '-show').style.display = 'none';
+                document.getElementById(shID).style.display = 'block';
+            } else {
+                document.getElementById(shID + '-show').style.display = 'inline';
+                document.getElementById(shID).style.display = 'none';
+            }
+        }
+    }
+</script>
+
+
+			</div>
+		</div>
+		<div id="bottom">
+			<a href="http://status.imvu-e.com/">Status</a>
+			<a href="#" id="translate-show" onclick="showHide('translate', false);window.scrollTo(0,document.body.scrollHeight);return false;">Translate</a>
+			<a href="/aboutus.php">About IMVU-E</a>
+			<a href="/tos.php">Terms of Service</a>
+			<a href="http://www.pixfuture.com">PixFuture Partner</a>
+			<a href="/nonaffiliation.php">IMVU-e is not affiliated with imvu.com</a>
+			<a href="http://www.copyright.gov">Copyright &copy; 2021</a>
+		</div>
+		<div id="ad-message" class="blinking-warning">
+			We detected you have an ad blocker! <br>
+			Our website is made possible by displaying online advertisements to our visitors.<br><br>
+			Please consider supporting us by disabling your ad blocker, or purchasing <a href='/vip'> VIP </a> to remove ads. <br>
+			This message will go away once your ad blocker has been disabled.
+		</div>
+		<noscript>
+			For full functionality of this service it is necessary to enable <b>JavaScript</b>.
+			Here are the <a href='http://www.enable-javascript.com/' target='_blank'>
+			instructions how to enable JavaScript in your web browser</a>.<br><br>
+		</noscript>
+		<div style="display: none" id="translate">
+			<div id="google-translate-replace" class="blinking-warning">
+				Your browser seems to be blocking Google Translate.<br>
+				Try turning off any privacy or ad blockers.
+			</div>
+		</div>
+	</div>
+
+	<script defer src='js/beacon.min.js' data-cf-beacon='{"token": "83d960925d044b118cdb5ac1166ac5ec"}'></script>
+    <script src="/files/images/ads/ads.php" type="text/javascript"></script>
+	<script src="js/helpers.js" type="text/javascript"></script>
+	<script type="text/javascript">
+				hideLoader();
+	</script>
+	</body>
+</html>

@@ -1,0 +1,634 @@
+div.widget-product-wide {
+    width:216px;
+    padding:5px;
+    position:relative;
+    float:left;
+    margin-right:4px;
+    text-align:left;
+    overflow:hidden;
+    _zoom:1;
+    _display:inline;    
+}
+
+#imvu-body div.widget-product-wide {
+    margin-right:4px;
+}
+
+div.widget-product-wide div.admin {
+    background:#eee;
+    font-size:11px;
+    padding:1px 5px;
+    text-align:right;
+    position:relative;
+}
+
+div.widget-product-wide div.admin a {
+    color:#ff0000;
+}
+
+div.widget-product-wide.prodev {
+    border:0;
+}
+
+div.widget-product-wide div.content-wrapper {
+    height:82px;
+    position:relative;
+    margin-left:102px;
+}
+
+div.widget-product-wide div.content-wrapper {
+    background:transparent url(https://www.imvu.com/shop/img/shop_sprite.png) no-repeat 0 -246px;
+    overflow:hidden;
+}
+
+div.widget-product-wide.in-inventory div.content-wrapper {
+    background:transparent url(https://www.imvu.com/shop/img/shop_sprite.png) no-repeat 0 -346px;
+}
+
+div.widget-product-wide .thumbnail-container {
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    display: block; 
+    width: 102px;
+    height: 82px;
+    overflow: hidden;
+}
+
+div.widget-product-wide a.thumbnail-link img {
+    /*width:100px;
+    height:80px;*/
+    border:1px solid #ccc;
+    display:block;
+}
+
+div.widget-product-wide .thumbnail-container .product-icon {
+    display: none;
+}
+
+div.widget-product-wide .thumbnail-container:hover .product-icon {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    outline: none;
+}
+
+div.widget-product-wide .thumbnail-container .product-flag-icon {
+    left: 4px;
+    top: 4px;
+    background: transparent url(https://www.imvu.com/common/img/sprites/image_icons.png) no-repeat -1px -1px;
+}
+
+div.widget-product-wide .thumbnail-container .product-flag-icon:hover {
+    background: transparent url(https://www.imvu.com/common/img/sprites/image_icons.png) no-repeat -1px -23px;
+}
+
+div.widget-product-wide .thumbnail-container .product-info-icon {
+    left: 26px;
+    top: 4px;
+    background: transparent url(https://www.imvu.com/common/img/sprites/image_icons.png) no-repeat -23px -1px;
+}
+
+div.widget-product-wide .thumbnail-container .product-info-icon:hover {
+    background: transparent url(https://www.imvu.com/common/img/sprites/image_icons.png) no-repeat -23px -23px;
+}
+
+div.widget-product-wide h3 {
+    font-family:tahoma,verdana,arial,sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    margin:0;
+}
+
+div.widget-product-wide h3.ap span.ap {
+    float:left;
+    height:12px;
+    margin-right:3px;
+    margin-top:2px;
+    overflow:visible;
+    vertical-align:middle;
+}
+
+div.widget-product-wide h3.ap span.ap span {
+    display:block;
+    width:19px;
+    height:15px;
+    background:transparent url(https://www.imvu.com/shop/img/shop_sprite.png) -109px -14px;
+}
+
+div.widget-product-wide h3 a {
+    color:#000;
+    text-decoration:none;
+    line-height:14px;
+}
+
+div.widget-product-wide h4 {
+    font-family:arial,helvetica,sans-serif;
+    font-size:9px;
+    color:#000;
+    margin:5px 0 0;
+}
+
+div.widget-product-wide h4 span.by {
+    line-height:12px;
+    float:left;
+}
+
+div.widget-product-wide h4 span.prodev {
+    display:none;
+}
+
+div.widget-product-wide h4.prodev span.prodev {
+    display:block;
+    float:left;
+    height:12px;
+    margin-left:3px;
+    overflow:visible;
+    vertical-align:middle;
+}
+
+div.widget-product-wide h4.prodev span.prodev span {
+    background:transparent url(https://www.imvu.com/shop/img/shop_sprite.png) repeat scroll -86px -14px;
+    display:block;
+    height:15px;
+    width:23px;
+}
+
+div.widget-product-wide h4 a {
+    color:#552f77;
+}
+
+div.widget-product-wide div.content {
+    height:57px;
+    overflow:hidden;
+    background:transparent;
+    padding:3px;
+}
+
+div.widget-product-wide div.credits-line {
+    left:0;
+    bottom:0;
+    overflow:hidden;
+    padding:0 3px;
+    _zoom;1;
+}
+
+div.widget-product-wide div.credits-line div.credits-symbol {
+    float:left;
+    margin-top:5px;
+    width:13px;
+    height:12px;
+    background:url(https://www.imvu.com/shop/img/shop_sprite.png) -45px -218px;
+}
+
+div.widget-product-wide div.credits-line span.price {
+    font-family:arial,helvetica,sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#000;
+}
+
+div.widget-product-wide div.credits-line ul.icon-buttons {
+    position:absolute;
+    right:0;
+    bottom:2px;
+    width:50px;
+    height:16px;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    display:block;
+}
+
+
+div.widget-product-wide div.credits-line ul.hidden {
+    display:none;
+}
+
+div.widget-product-wide div.credits-line ul.icon-buttons li {
+    display:block;
+    position:absolute;
+}
+
+div.widget-product-wide div.credits-line ul.icon-buttons li.wishlist-add {
+    display:block;
+    position:absolute;
+    width:20px;
+    height:15px;
+    background:transparent url(https://www.imvu.com/shop/img/shop_sprite.png) 0px -216px;
+    right:24px;
+}
+
+div.widget-product-wide div.credits-line ul.icon-buttons li.cart-add {
+    display:block;
+    position:absolute;
+    width:20px;
+    height:15px;
+    background:transparent url(https://www.imvu.com/shop/img/shop_sprite.png) -22px -216px;
+    right:3px;
+    top:1px;
+}
+
+div.widget-product-wide div.credits-line ul.icon-buttons a {
+    display:block;
+    width:20px;
+    height:15px;
+}
+
+div.widget-product-wide div.credits-line ul.icon-buttons li span {
+    display:none;
+}
+
+div.widget-product-wide div.ft {
+    overflow:hidden;
+    width:240px;
+    _zoom:1;
+}
+
+div.widget-product-wide div.buttons {
+    height:21px;
+
+}
+
+div.widget-product-wide div.buttons ul li {
+    float:right;
+    _display:inline;
+    height:16px;
+    background:transparent url(https://www.imvu.com/shop/img/shop_sprite.png);
+}
+
+div.widget-product-wide div.buttons ul li a {
+    display:block;
+    height:19px;
+    width:100%;
+}
+
+div.widget-product-wide div.buttons ul li span {
+    position:absolute;
+    left:-1000px;
+}
+
+div.widget-product-wide div.buttons ul li.try {
+    width:28px;
+    height:19px;
+    margin-right:1px;
+    margin-top:1px;
+    background-position:0px -29px;
+    display:none;
+}
+
+div.widget-product-wide div.buttons ul.tryable li.try {
+    display:block;
+}
+
+div.widget-product-wide div.buttons ul.hidden {
+    display:none;
+}
+
+div.widget-product-wide div.buttons ul li.use {
+    width:28px;
+    height:19px;
+    margin-right:1px;
+    margin-top:1px;
+    background-position:0px -10px;
+    display:none;
+}
+
+div.widget-product-wide div.buttons ul li.gift {
+    width:32px;
+    height:19px;
+    margin-right:1px;
+    margin-left:1px;
+    margin-top:1px;
+    background-position:-29px -29px;
+}
+
+div.widget-product-wide div.buttons ul li.buy {
+    width:58px;
+    height:19px;
+    margin-top:1px;
+    background-position:-62px -29px;
+}
+
+div.widget-product-wide.in-inventory div.buttons ul li.buy {
+    display:none;
+}
+
+div.widget-product-wide div.buttons ul li.own {
+    background-position:-28px -8px;
+    height:21px;
+    width:58px;
+    display:none;
+}
+
+div.widget-product-wide.in-inventory {
+    border:none;
+    background:transparent;
+}
+
+div.widget-product-wide.in-inventory div.buttons ul li.try {
+    display:none;
+}
+
+div.widget-product-wide.in-inventory div.buttons ul li.use {
+    display:block;
+}
+
+div.widget-product-wide.in-inventory div.buttons ul li.own {
+    display:block;
+}
+
+div.widget-product-wide div.sales {
+    font-size:11px;
+    font-family:arial,tahoma,verdana,sans-serif;
+}
+
+div.widget-product-wide div.sales a.edit {
+    text-decoration:none;
+    font-size:11px;
+    font-family:arial,tahoma,verdana,sans-serif;
+    vertical-align:middle;
+    margin-right:5px;
+    color:#552F77;
+    background:#F2F2EE;
+    padding:0 4px;
+    border:1px solid #ccc;
+}
+
+div.widget-product-wide div.sales span.sales-label {
+    margin-left:2px;
+}
+
+div.widget-product-wide div.sales span.sales-count {
+    margin-left:2px;
+    font-weight:bold;
+    color:#000;
+}
+
+.widget-product-wide .admin-panel {
+    overflow:hidden;
+    _zoom:1;
+}
+
+.widget-product-wide .admin-panel .stats {
+    position:absolute;
+    left:2px;
+    top:2px;
+}
+
+.widget-product-wide .admin-panel .stat {
+    float:left;
+    margin-right:5px;
+    font-size:10px;
+}
+
+.widget-product-wide .admin-panel .stat label {
+    cursor:pointer;
+    color:blue;
+    margin-right:1px;
+}
+
+.widget-product-wide .admin-rating-info {
+    font-size:10px;
+    position:absolute;
+    left:5px;
+    top:90px;
+}
+
+.widget-product-wide .whitelisted {
+    top: 53px;
+    right: 1px;
+    position:absolute;
+    font-size:14px;
+    width: 125px;
+    text-align:center;
+    color: white;
+    padding: 0 5px 0 5px;
+    background: #89b757;
+}
+
+.widget-product-wide .admin-rating-info span {
+    color:#000;
+}
+
+.widget-product-wide .admin-rating-info div {
+    float:left;
+}
+
+.widget-product-wide .admin-rating-info .admin-rating {
+    margin-left:5px;
+}
+
+#products {
+    /*clear:both;*/
+    overflow:hidden;
+}
+
+div.pagenav {
+    background:#f2f2ee;
+    height:30px;
+    border-top:3px solid #6b6b6b;
+    position:relative;
+    margin-bottom:10px;
+}
+
+div.pagenav.bottom {
+    border-top:none;
+    border-bottom:1px solid #6b6b6b;
+}
+
+div.pagenav strong {
+    font-weight:bold;
+}
+
+div.pagenav div.pagenums {
+    bottom:5px;
+    position:absolute;
+    right:3px;
+}
+
+div.pagenav span.num {
+    display:block;
+    float:left;
+    width:16px;
+    height:20px;
+    margin-right:4px;
+    background:#fff;
+    text-align:center;
+}
+
+div.pagenav span.num.selected {
+    background:#6b6b6b;
+}
+
+div.pagenav span a {
+    display:block;
+    width:16px;
+    height:20px;
+    text-decoration:none;
+    color:#8d8e88;
+    font-weight:bold;
+    line-height:20px;
+    font-size:11px;
+}
+
+div.pagenav span.pagedesc {
+    color:#6B6B6B;
+    display:block;
+    font-size:12px;
+    left:5px;
+    line-height:20px;
+    position:absolute;
+    top:5px;
+}
+
+div.pagenav span.num.selected a {
+    color:#fff;
+}
+
+
+.yui-t1 #yui-main .yui-b {
+    _margin-left:170px !important;
+}
+
+
+#ad {
+    _margin-right:10px !important;
+}
+
+/* Popup dialogs */
+
+div#shopConfirm, div#cartDialog {
+    color:#5E5F5A;
+    text-align:left;
+}
+
+#dlgShop, #shopConfirm, #cartDialog {
+    text-align:left;
+}
+
+#shopConfirm h2 span, #cartDialog h2 span {
+    vertical-align:baseline;
+}
+
+#dlgShop button {
+    color:#000;
+}
+
+#dlgShop .yui-push-button.default button {
+    color:#ff0000;
+    font-weight:bold;
+}
+
+#dlgShop div.hd, #shopWait div.hd, #shopConfirm div.hd, #cartDialog div.hd {
+    background:transparent url(https://www.imvu.com/common/img/sam.gif) repeat-x scroll 0pt -200px;
+}
+
+#dlgShop .bd {
+    overflow:hidden;
+    font-size:11px;
+}
+
+#dlgShop h3 {
+    font-weight:bold;
+    margin-top:0;
+}
+
+#dlgShop .bd img, #shopConfirm .bd img, #cartDialog .bd img {
+    float:left;
+    margin-right:5px;
+    border:1px solid #ccc;
+}
+
+#dlgShop .bd p.shop-try {
+    clear:both;
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+}
+
+#shopConfirm div.bd div, #cartDialog div.bd div {
+    margin-top:10px;
+    text-align:right;
+}
+
+#shopConfirm h2, #cartDialog h2 {
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+#shopConfirm #confirm_disable {
+    font-size:10px;
+    margin-top:5px;
+    text-align:center;
+}
+
+#shopConfirm #audio_warning {
+    font-size:10px;
+    margin-top:5px;
+    text-align:center;
+    color:#A44;
+}
+
+#shopConfirm label, #cartDialog label {
+    margin-left:5px;
+}
+
+#shopConfirm #btn_purchase, #cartDialog #btn_dlg_add {
+    font-weight:bold;
+    font-size:12px;
+}
+
+#shopConfirm #btn_cancel, #cartDialog #btn_dlg_add_cancel {
+    font-size:11px;
+}
+
+#shopConfirm #cb_line, #cartDialog #cb_cart_line {
+    margin-top:15px;
+}
+
+#shopConfirm strong {
+    font-size:11px;
+    font-weight:bold;
+}
+
+div.widget-product-wide div.discount {
+    background:url(https://www.imvu.com/common/img/timer/product_sale_hd.png) no-repeat;
+    width:240px;
+    height:20px;
+    display:none;
+    position:absolute;
+    left:5px;
+    top:-14px;
+    text-align:right;
+}
+
+div.widget-product-wide div.discount span {
+    color:#fff;
+    font-size:10px;
+    margin-right:2px;
+}
+
+#products div.widget-product-wide.discounted {
+    margin-top:17px;
+}
+
+div.discounted div.discount {
+    display:block;
+}
+
+div.widget-product-wide div.sales span.date-added {
+    font-size:10px;
+    font-family:arial,sans-serif;
+    position:absolute;
+    right:0;
+    bottom:20px;
+}
+
+div.widget-product-wide .mass-mod {
+   position:absolute;
+   top:5px;
+   left:5px;
+   z-index:1;
+}

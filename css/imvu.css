@@ -1,0 +1,2432 @@
+@import url(https://www.imvu.com/common/css/fonts.css);
+@import url(https://www.imvu.com/common/css/new-visd-buttons.css);
+    
+.clear:after {
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+.page-message {
+    background:#e4e4d2;
+    color:#4e4e48;
+    border-bottom:1px solid #ccccb7;
+}
+.page-message .hd, .page-message .ft, .page-message .lc, .page-message .rc a {
+    background:#e4e4d2 url(https://www.imvu.com/common/img/sprites/page_message.gif) repeat-x;
+}
+.page-message .hd, .page-message .ft {
+    height:10px;
+    overflow:hidden;
+}
+.page-message .bd {
+    width:100%;
+    zoom:1;
+}
+.page-message .lc, .page-message .mc {
+    float:left;
+}
+.page-message .lc {
+    width:3.5%;
+    height:30px;
+    background-color:#e4e4d2;
+    background-position:0 -160px;
+    background-repeat:no-repeat;
+    margin:0 10px;
+    *display:inline;
+}
+.page-message .success .lc {
+    background-position:0 -218px;
+}
+.page-message .error .lc {
+    background-position:0 -276px;
+}
+.page-message .mc {
+    width:85%;
+}
+.page-message .mc h4 {
+    font-weight:bold;
+}
+.page-message .rc {
+    float:right;
+    *display:inline;
+    margin-right:10px;
+}
+.page-message .rc a {
+    cursor:pointer;
+    cursor:hand;
+    background-position:1px -80px;
+    background-repeat:no-repeat;
+    width:14px;
+    height:14px;
+    display:block;
+}
+.page-message .rc a:hover {
+    background-position:1px -120px;
+}
+.page-message .rc a b {
+    display:none;
+}
+.page-message .ft {
+    clear:both;
+    background-position:0 -37px;
+}
+
+#hd {
+    z-index:0;
+}
+
+#bd {
+    margin:0px;
+}
+
+#imvu-body { 
+    margin:0 10px 10px 0;
+    width:755px;
+    overflow:hidden;
+}
+
+#imvu-search-form {
+    padding-left:20px;
+    height:50px;
+    margin-bottom:15px;
+    position:relative;
+}
+
+#imvu-search-form #hd-search {
+    float:left;
+    margin-top:16px;
+}
+
+#imvu-search-form .search-box {
+    background-color:#ddd;
+    vertical-align:middle;
+    border:1px inset #fff;
+    padding:5px;
+    float:left;
+    margin:6px 6px 6px 20px;
+    text-align:left;
+}
+
+#imvu-search-form #txt-search {
+    font-size:14px;
+    line-height:14px;
+    width:200px;
+    vertical-align:middle;
+    border:1px solid #333;
+    padding:3px;
+}
+
+#imvu-search-form #btn-go {
+    margin-left:2px;
+    vertical-align:middle;
+}
+
+#imvu-search-form #search-options {
+    font-size:11px;
+    margin-left:5px;
+    float:left;
+}
+
+#imvu-search-form select {
+    margin-top:6px;
+}
+
+#imvu-search-form #search-options a {
+    margin-top:3px;
+    display:block;
+    position:static;
+    right:6px;
+    bottom:6px;
+}
+
+#imvu-ad-bnr {
+    height:50px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+#imvu-search-results #products {
+    position:relative;
+    border:1px solid #bfbfbf;
+    float:left;
+    width:614px;
+}
+
+#imvu-search-results {
+    position:relative;
+    width:616px;
+    float:left;
+    overflow:hidden;
+}
+
+#sort-control {
+    overflow:hidden;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+#sort-control label {
+    float:right;
+    margin-right:5px;
+    line-height:20px;
+}
+
+#sort-control #dd-sort {
+    float:right;
+}
+
+#products .pagenav {
+    background:#fff;
+    height:25px;
+}
+
+#products .pagenav.top {
+    margin-bottom:5px;
+}
+
+#products .pagenav .pagedesc {
+    font-size:11px;
+    margin-left:5px;
+    float:left;
+    padding-top:4px;
+}
+
+#products .pagenav .pagenums {
+    float:right;
+    margin-right:5px;
+}
+
+#products .pagenav .pagenums .num {
+    background-color:#E7E7E7;
+    font-weight:bold;
+    margin-left:4px;
+    padding:0;
+    font-size:11px;
+    float:left;
+}
+
+#products .pagenav .pagenums .num.selected {
+    background-color:#7DB02D;
+    color:#FFFFFF;
+}
+
+#products .pagenav .pagenums .num a {
+    color:#015fa8;
+    text-decoration:none;
+    line-height:20px;
+}
+
+#products .bd {
+    margin:0 5px 5px 5px;
+    padding-left:5px;
+    padding-top:10px;
+    *padding-left:0;
+    overflow:hidden;
+    zoom:1;
+}
+
+#products .bd .zeroresults {
+    background:#fff;
+    padding:15px;
+    margin-left:-5px;
+}
+
+#products .bd .zeroresults p {
+    color:#015FA8;
+}
+
+#products .bd .zeroresults p.first {
+    color:red;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+#products .bd .zeroresults p.last {
+    color:#000;
+    font-size:12px;
+    line-height:20px;
+    margin-left:5px;
+    margin-bottom:15px;
+}
+
+
+#products .bd .zeroresults .expand {
+    margin:10px 0 10px 15px;
+    font-size:11px;
+}
+
+#products .bd .zeroresults .expand label {
+    display:block;
+    float:left;
+    width:150px;
+    font-weight:bold;
+    vertical-align:middle;
+    line-height:20px;
+}
+
+#products .bd .zeroresults .expand a {
+    vertical-align:middle;
+    line-height:20px;
+}
+
+.shadow-rt {
+    position:absolute;
+    margin:0;
+    width:2px;
+    right:-2px;
+    background:url(https://www.imvu.com/common/skin/base/shadow-rt.png) repeat-y;
+    *background:transparent;
+    *filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.imvu.com/common/skin/base/shadow-rt.png', sizingMethod='scale');
+}
+
+.shadow-btm {
+    font-size:1px;
+    position:absolute;
+    margin:0;
+    height:3px;
+    line-height:3px;
+    left:1px;
+    padding:0;
+    background:url(https://www.imvu.com/common/skin/base/shadow-btm.png) repeat-x;
+    *background:transparent;
+    *filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.imvu.com/common/skin/base/shadow-btm.png', sizingMethod='scale');
+}
+
+#imvu-search-results h1, #web_browse_wide h1 {
+    font-size:17px;
+    font-weight:bold;
+    margin:0 0 10px 0;
+    color:#015fa8;
+}
+
+#imvu-ad-rt {
+    width:120px;
+    height:600px;
+}
+
+div.basicbox {
+    border:1px solid #BFBFBF;
+    position:relative;
+    zoom:1;
+}
+
+div.basicbox .bd {
+    background:#f7f5f2;
+    margin:0pt 5px 5px;
+    overflow:hidden;
+    padding-left:3px;
+    padding-bottom:5px;
+    zoom:1 !important;
+}
+
+div#product_wide_body {
+    overflow:hidden;
+    background:url(/shop/img/bg_gradient.gif) repeat-x;
+    padding:5px 0 0 5px;
+    *padding-bottom:5px;
+    margin-bottom:10px;
+}
+
+div.product-wide {
+    width:244px;
+    height:105px;
+    float:left;
+    border:1px solid #ccc;
+    overflow:hidden;
+    background:#fff;
+    margin:0 5px 5px 0;
+    padding:3px;
+}
+
+div.product-wide.pro {
+    border:3px solid #ff0000;
+    width:240px;
+    height:101px !important;
+}
+
+div.product-wide span.pro {
+    font-family:verdana,tahoma,arial,sans-serif;
+    font-weight:bold;
+    color:#ff0000;
+    margin-left:4px;
+    font-size:9px;
+}
+
+div.product-wide.pro div.tray {
+    padding-top:1px;
+}
+
+div.product-wide div.tray {
+    background:#eee;
+    clear:both;
+    margin:-3px;
+    position:relative;
+    overflow:hidden;
+    padding:4px 3px 3px;
+    height:19px;
+}
+
+div.product-wide.in-inventory {
+    background:#EEE;
+}
+
+div.product-wide.in-inventory div.tray {
+    background:#E8E8FF;
+    text-align:right;
+}
+
+div.product-wide.in-inventory div.tray span {
+    background:#E8E8FF;
+    font-size:88%;
+    font-weight:bold;
+    color:#333;
+}
+
+div.product-wide div.info {
+    margin-left:107px;
+    position:relative;
+    height:85px;
+}
+
+div.product-wide p.name {
+    margin-bottom:5px;
+}
+
+div.product-wide p.name a {
+    text-decoration:none;
+    color:#000;
+    font-family:arial,sans-serif;
+    font-size:90%;
+    font-weight:bold;
+}
+
+div.product-wide p.by {
+    color:#333;
+    font-size:80%;
+}
+
+div.product-wide p.by a {
+    color:#0065cc;
+}
+
+div.product-wide p.price {
+    position:absolute;
+    left:0;
+    bottom:6px;
+}
+
+div.product-wide p.price img {
+    vertical-align:middle;
+}
+
+div.product-wide p.price span {
+    color:#333;
+    vertical-align:middle;
+    font-size:110%;
+    font-weight:bold;
+    line-height:13px;
+}
+
+div.product-wide a.product-img-link {
+    float:left;
+    display:block;
+    overflow:hidden;
+    margin:0 3px 0 0;
+}
+
+div.product-wide a.product-img-link img {
+    border:1px solid #ccc;
+    
+}
+
+div.product-wide div.cta {
+    position:absolute;
+    right:0;
+}
+
+div.product-wide a.buynow span, div.product-wide a.cart span, div.product-wide a.wishlist span  {
+    position:absolute;  
+    left:-1000px;
+}
+
+div.product-wide label {
+    display:block;
+    float:left;
+    font-size:11px;
+    vertical-align:middle;
+    line-height:19px;
+    margin-right:7px;
+}
+
+div.product {
+    width:109px;
+    /*height:126px;*/
+    background:#fff;
+    float:left;
+    margin:5px;
+    _margin-left:4px;
+    border:1px solid #ccc;
+    position:relative;
+    z-index:0;
+    text-align:left;
+    height:150px;
+}
+
+div.prodev {
+    border:1px solid red;
+}
+
+div.product div.pro {
+    position:absolute;
+    left:-1px;top:-9px;
+    border:none;
+    height:auto;
+}
+
+div.product div.pro img {
+    border:none;
+}
+
+div.product div.imvu-band {
+    position:absolute;
+    left:0;top:0;
+}
+
+div.product div.bottom-line {
+    position:relative;
+    height:15px;
+}
+
+div.product div.admin {
+    font-size:10px;
+    background:#9999FF;
+    text-align:center;
+    padding:1px;
+}
+
+div.product div.admin a {
+    color:#fff;
+}
+
+div.product div.admin a.selected {
+    background:red;
+}
+
+div.product div.sales {
+    font-size:11px;
+    padding:2px;
+    background:#ccc;
+    clear:both;
+}
+
+div.product div.sales span.sales-label {
+    margin-left:5px;
+}
+
+div.product div.sales span.sales-count {
+    font-weight:bold;
+    margin-left:5px;
+}
+
+div.product div.conversion {
+    font-size:11px;
+    text-align:center;
+    background-color:green;
+    padding:2px;
+    color:#fff;
+}
+
+div.product.selected {
+    background:yellow;
+}
+
+div.product span.product-img, div.product img.product-img {
+    margin:3px 3px 0;
+    border:1px solid #ccc;
+}
+
+div.product p {
+    color:#5E5F5A;
+    font-size:10px;
+    line-height:11px;
+    margin:0 !important;
+    padding-left:3px;
+    padding-right:3px;
+    width:94px;
+    height:13px;
+    overflow:hidden;
+}
+
+div.product a {
+    color:#015FA8;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+div.product .price {
+    font-size:11px;
+    position:absolute;
+    right:3px;
+}
+
+div.product .vip_price {
+    font-size:11px;
+    position:absolute;
+    right:3px;
+    color: red;
+}
+
+div.avatar {
+    width:80px;
+    height:123px;
+    background:#fff;
+    float:left;
+    margin:5px;
+    *margin-left:2px;
+    border:1px solid #ccc;
+}
+
+div.avatar a {
+    color:#015FA8;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+div.avatar p {
+    color:#5E5F5A;
+    font-size:10px;
+    line-height:10px;
+    margin-top:-3px;
+    text-align:center;
+}
+
+#best-sellers .bd, #featured-developers .bd {
+}
+
+#best-sellers .bd {
+    padding-left:12px;
+    *padding-left:6px;
+}
+
+#best-sellers .product {
+    margin:6px 7px;
+}
+
+#featured-developers .bd {
+    padding-top:6px;
+}
+
+#featured-developers .avatar {
+    margin:6px 5px;
+    *margin:3px 3px 12px;
+}
+
+#products div.product {
+    margin:4px 4px 8px;
+}
+
+h2.colorbar {
+    height:23px;
+    line-height:32px;
+    border:1px solid #883e17;
+    margin:5px;
+    background:url(https://www.imvu.com/common/skin/base/hd-bg-blue.gif);
+    position:relative;
+}
+
+h2.colorbar.orange {
+    background:url(https://www.imvu.com/common/skin/base/hd-bg-orange.gif);
+}
+
+h2.colorbar.red {
+    background:url(https://www.imvu.com/common/skin/base/hd-bg-red.gif);
+}
+
+h2.colorbar.blue {
+    background:url(https://www.imvu.com/common/skin/base/hd-bg-blue.gif);
+}
+
+h2.colorbar.yellow {
+    background:url(https://www.imvu.com/common/skin/base/hd-bg-yellow.gif);
+}
+
+h2 span {
+    vertical-align:middle;
+}
+
+h2 span.text {
+    position:absolute;
+    left:-1000px;
+    visibility:hidden;
+}
+
+h2.colorbar span.img {
+    height:24px;
+    display:block;
+    float:left;
+}
+
+h2.colorbar .hd-img {
+    margin-top:5px;
+    margin-left:5px;
+}
+
+input.dev-check {
+    position:absolute;
+    top:5px;
+    left:5px;
+    z-index:100;
+}
+
+span.dev-check-all {
+    position:absolute;
+    right:5px;
+    top:3px;
+    color:#fff;
+    font-size:11px;
+    font-weight:bold;
+    line-height:20px;
+}
+
+span.dev-check-all input {
+    margin-right:5px;
+}
+
+#tag #txt-tag {
+    font-size:11px;
+    line-height:20px;
+    height:20px;
+    width:120px;
+    vertical-align:top;
+    border:1px solid #CCC;
+    padding-left:5px;
+}
+
+#tag button {
+   height:20px;
+   width:10px;
+   border:1px solid #CCC;
+}
+
+ul#selected-tags {
+    font-size:11px;
+}
+
+ul#selected-products {
+    font-size:11px;
+}
+
+.dialog { 
+    text-align:left;
+}
+
+#wishlist p {
+    font-size:12px;
+    margin-left:5px;
+}
+
+#wishlist h3 {
+    margin-top:7px;
+}
+
+#browse-categories {
+    border:1px solid #BFBFBF;
+    float:left;
+    position:relative;
+    width:100%;
+    margin-bottom:10px;
+    background:#ccc;
+}
+
+#browse-categories div.bd {
+    height:420px;
+    overflow:auto;
+    margin-right:5px;
+}
+
+#browse-categories div.ft {
+    height:5px;
+    overflow:hidden;
+}
+
+#browse-categories div.category-row {
+    margin-left:15px;
+    overflow:hidden;
+}
+
+#browse-categories div.bd div.category {
+    float:left;
+    padding:3px;
+    border:1px solid #bfbfbf;
+    background:#aaa;
+    text-align:center;
+    width:100px;
+    overflow:hidden;
+    margin:3px;
+}
+
+#browse-categories div.bd div.category.hover {
+    background:#B7B700;
+}
+
+#browse-categories div.bd div.category-name {
+    background:#eee;
+    overflow:hidden;
+    padding:2px;
+    line-height:11px;
+}
+
+#browse-categories div.bd div.category-name a {
+    color:#015FA8;
+    text-decoration:none;
+    font-size:11px;
+    font-weight:bold;
+}
+
+/*
+    * @Name: Mento Button
+    * @Desc: CSS styles that draw a link in a standard 
+        call to action format
+*/
+a.mento-btn {
+    background:url( https://www.imvu.com/common/skin/base/buttons/btn-mento-blue.png ) no-repeat right top;
+    font:77% tahoma;
+    cursor:pointer;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#4090ce;
+}
+a.mento-btn span {
+    background:transparent url( https://www.imvu.com/common/skin/base/buttons/btn-mento-blue.png ) no-repeat left bottom;
+    display:block;
+    padding:8px 0px 6px;
+    font-weight:bold;
+}
+a.mento-btn:hover {
+
+}
+
+
+/*
+    * @Name: Kool-Aid Box Module
+    * @Desc: A top level heading box that appears only once in a page.
+
+    * @Usage: 
+*/
+.koolaid-box {
+    position:relative;
+    margin:15px 0 10px;
+}
+.koolaid-box .tl, .koolaid-box .tr, .koolaid-box .bl, .koolaid-box .br {
+    display:block;
+    width:14px;
+    height:14px;    
+    position:absolute;
+}
+.koolaid-box .hd, .koolaid-box .ft {
+    position:relative;
+    zoom:1;
+}
+.koolaid-box .tl {
+    background:transparent url( https://www.imvu.com/common/img/corners/tl.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tl.png', sizingMethod='scale' );
+}
+.koolaid-box .tr {
+    right:0;
+    _right:-1px;    
+    background:transparent url( https://www.imvu.com/common/img/corners/tr.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tr.png', sizingMethod='scale' );
+}
+.koolaid-box .bl {
+    bottom:0;
+    _bottom:-1px;
+    background:transparent url( https://www.imvu.com/common/img/corners/bl.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/bl.png', sizingMethod='scale' );            
+}
+.koolaid-box .br {
+    bottom:0;
+    right:0;
+    _bottom:-1px;
+    _right:-1px;
+    background:transparent url( https://www.imvu.com/common/img/corners/br.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/br.png', sizingMethod='scale' );    
+}
+.koolaid-box .hd-img {
+    position:absolute;
+    top:-15px;
+    left:17px;
+    display:block;
+}
+.koolaid-box .hd h1, .koolaid-box .hd h2 {
+    position:absolute;
+    left:-5000px;
+}
+.koolaid-box h2 {
+    font-size:136%;
+    margin:0 0 5px;
+}
+.koolaid-box .content p {
+    margin-bottom:10px;
+}
+.koolaid-box .bd {
+    padding:30px 10px 15px;
+}
+.koolaid-box .content {
+    padding:10px;    
+}
+
+/* pre-defined color classes to be used with koolaid boxes */
+.koolaid-unflavored {
+    background-color:#aaa;
+    color:#fff;
+}
+.koolaid-unflavored .content {
+    background-color:#999;
+    border:1px solid #898989;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-cherry {
+    background-color:#f00;
+    color:#fff;
+}
+.koolaid-cherry .content {
+    background-color:#d90101;    
+    border:1px solid #b90404;
+    border-right:0;
+    border-bottom:0;
+}
+
+.koolaid-blue {
+    color:#fff;
+    background-color:#5B5A85;
+}
+.koolaid-blue .content {
+    background-color:#9092AD;
+    border:1px solid #151233;
+    border-right:0;
+    border-bottom:0;
+}
+
+.koolaid-lime {
+    background-color:#77b40f;
+    color:#fff;
+}
+.koolaid-lime .content {
+    background-color:#6fa418;
+    border:1px solid #669616;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-lime .content {
+    background-color:#6fa418;
+    border:1px solid #669616;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-blueberry {
+    background-color:#98d4ff;
+    color:#fff;
+}
+.koolaid-blueberry .content {
+    background-color:#7bb5e7;
+    border:1px solid #6da1ce;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-blueberry .content {
+    color:#fff;
+}
+.koolaid-lemon {
+    background-color:#;
+    color:#fff;
+}
+.koolaid-lemon .content {
+    background-color:#;
+    border:1px solid #;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-grape {
+    background-color:#7f69ab;
+    color:#fff;
+}
+.koolaid-grape .content {
+    background-color:#6b509d;
+    border:1px solid #5d1786;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-grape .content {
+    color:#5d1786;
+}
+.koolaid-tangerine {
+    background-color:#ff5a00;
+    color:#fff;
+}
+.koolaid-tangerine .content {
+    background-color:#fda14e;
+    border:1px solid #;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-tangerine .content {
+    color:#;
+}
+.koolaid-chocolate {
+    background-color:#;
+    color:#fff;
+}
+.koolaid-chocolate .content {
+    background-color:#;
+    border:1px solid #;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-chocolate .content {
+    color:#;
+}
+.koolaid-grapefruit {
+    background-color:#;
+    color:#fff;
+}
+.koolaid-grapefruit .content {
+    background-color:#;
+    border:1px solid #;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-grapefruit .content {
+    color:#;
+}
+
+.koolaid-cola {
+    background-color:#000000;
+    color:#fff;
+}
+.koolaid-cola .content {
+    background-color:#000000;
+    border:1px solid #000000;
+    border-right:0;
+    border-bottom:0;
+}
+.koolaid-cola .content {
+    color:#ffffff;
+}
+
+.koolaid-carbon {
+    background-color:#1f2224;
+    color:#fff;
+}
+.koolaid-carbon .bd      {
+    background:#1f2224 url(https://www.imvu.com/common/img/bg/groups_hud_bg.gif) repeat-x top left;
+}
+.koolaid-carbon .bd .content {
+    padding:5px;
+    border:2px solid #000;
+    background:#dadadf url(/groups/images/my_groups_bg_grad.jpg) repeat-x top left;
+}
+.koolaid-carbon .hd-img {
+    top:-14px;
+}
+
+.koolaid-spoiledCantaloupe {
+    background-color:#d8ac4c;
+    color:#fff;
+}
+.koolaid-spoiledCantaloupe .content {
+    background-color:#d8ac4c;
+}
+
+/*
+    * @Name: Jello Box Module
+    * @Desc: A CSS module class that draws a box with a 1px border
+        and titlebar with a gradient background
+
+    * @Usage: specify either an additional class or inline style with a 
+        background-color to element ( .jello-box .hd )
+*/
+.jello-box {
+    border:1px solid #bfbfbf;
+    padding:5px;
+    position:relative;    
+}
+.jello-box .hd {
+    font-weight:bold;
+    padding:1px;
+    height:24px;
+    position:relative;
+}
+.jello-box .hd .bg {
+    position:relative;
+    width:100%;
+    height:24px;
+    background:transparent url( https://www.imvu.com/common/skin/base/hd-bg-gloss-mask.png?v=2 ) repeat-x 0% 50%;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/skin/base/hd-bg-gloss-mask.png?v=2', sizingMethod='scale' );
+    _position:static;    
+}
+.jello-box .hd .swf-header {
+    position:absolute;
+    top:-1px;
+    *top:0px;
+    left:0;   
+}
+
+.jello-box .hd .bg h1 {
+    padding:3px 5px 5px;
+    margin:0;
+    color:#fff;
+}
+
+.jello-box .hd .bg h3 {
+    padding:3px 5px 5px;
+    margin:0;
+    color:#fff;
+}
+.jello-box .hd .bg span {
+    font:77% verdana;
+    color:#eee;
+    float:right;
+    margin:5px 5px 0 0;
+}
+.jello-box .hd .bg span a {    
+    color:#fff;
+}
+.jello-box .bd {
+    background:#f7f5f2;
+    border:1px solid #f7f5f2;
+    padding:5px;
+    margin-top:5px;
+    zoom:1;
+    overflow:hidden;
+}
+.jello-box .panel-toggle {
+    /* padding:5px 5px 5px 20px; */
+    padding:5px;
+    background:#EEE;
+    _height:1%;
+}
+.jello-box .panel-toggle h4 {
+    font-weight:bold;
+}
+.jello-box .panel-content {
+    background:#f7f5f2;
+    padding:5px;
+    margin-bottom:5px;
+    zoom:1;
+}
+.jello-box .bd .toggle-open {
+    /* background:#EEE url( https://www.imvu.com/common/skin/base/icons/icn_minus.gif ) no-repeat 5px 8px; */
+}
+.jello-box .bd .toggle-closed {
+    /* background:#EEE url( https://www.imvu.com/common/skin/base/icons/icn_plus.gif ) no-repeat 5px 8px; */
+}
+.jello-box .bd .panel-open {
+    display:block;
+}
+.jello-box .bd .panel-closed {
+    display:none;
+}
+.jello-box .bd p {
+    margin-bottom:10px;
+}
+.jello-box .bd p.last {
+    margin-bottom:0;
+}
+.jello-box .pagination {
+    zoom:1;
+    margin-top:5px;
+}
+.jello-box .pagination span {
+    float:left;
+    text-align:right;
+    font-size:85%;
+    padding:3px 5px 0 0;
+}
+.jello-box .pagination ul {
+    float:left;
+}
+.jello-box .pagination li {
+    float:left;
+}
+.jello-box .pagination a, .jello-box .pagination li b {
+    display:block;
+    padding:3px;
+    background:#f7f5f2;
+    margin-right:3px;
+    font-size:85%;
+    text-decoration:none;
+}
+.jello-box .pagination a.last {
+    margin-right:0;
+}
+.jello-box .pagination li a.selected, .jello-box .pagination li b {
+    background:#7DB02D;
+    color:#fff !important;
+}
+.jello-box .pagination a:hover {
+    text-decoration:none !important;
+}
+.jello-unflavored .hd {
+    background-color: #888;
+}
+.jello-cherry .hd {
+    background-color:#f00;
+}
+.jello-lime .hd {
+    background-color:#77b40f;
+}
+.jello-blueberry .hd {
+    background-color:#6299c8;
+}
+.jello-lemon .hd {
+    background-color:#;
+}
+.jello-grape .hd {
+    background-color:#563890;
+}
+.jello-tangerine .hd {
+    background-color:#e39401;
+}
+.jello-chocolate .hd {
+    background-color:#;
+}
+.jello-grapefruit .hd {
+    background-color:#;
+}
+/*Admin pages only*/
+.jello-admin .hd {
+    background-color:#616161;
+}
+.jello-admin .hd .bg {
+    position:relative;
+    width:100%;
+    background:transparent url( / );
+    _background:none;
+    _filter:none;
+    _position:static;    
+}
+
+/*---- Header styling ---*/
+
+/*
+    * @Name: Crystal Light Box Module
+    * @Desc: A CSS module class that draws a rounded corner box used 
+        only in a secondary column for cross-pollenation.
+
+    * @Usage: Requires no additional configuration.
+*/
+.crystallight-box {
+    position:relative;
+    margin:0 0 10px;
+    background:#ddd;
+}
+.crystallight-box .tl, .crystallight-box .tr, .crystallight-box .bl, .crystallight-box .br {
+    display:block;
+    width:14px;
+    height:14px;    
+    position:absolute;
+    z-index:0;
+}
+.crystallight-box .hd, .crystallight-box .ft {
+    position:relative;
+    z-index:1000;
+    zoom:1;
+}
+.crystallight-box .bd {
+    padding:15px 5px;
+}
+.crystallight-box .tl {
+    background:transparent url( https://www.imvu.com/common/img/corners/tl.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tl.png', sizingMethod='scale' );
+}
+.crystallight-box .tr {
+    right:0;    
+    background:transparent url( https://www.imvu.com/common/img/corners/tr.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tr.png', sizingMethod='scale' );
+}
+.crystallight-box .bl {
+    bottom:0;
+    background:transparent url( https://www.imvu.com/common/img/corners/bl.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/bl.png', sizingMethod='scale' );            
+}
+.crystallight-box .br {
+    bottom:0;
+    right:0;
+    background:transparent url( https://www.imvu.com/common/img/corners/br.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/br.png', sizingMethod='scale' );    
+}
+.crystallight-box h3 {
+    padding:0;
+    margin:0 10px 5px;
+    color:#666;
+    font-size:114%;
+}
+.crystallight-box p.teaser {
+    margin:0 5px;
+    font-size:85%;    
+}
+.crystallight-box .content {
+    margin-top:10px;
+    background:#fff;
+    padding:5px 10px;
+}
+
+/* 
+    * @Name: Rounded Box
+    * @Desc: Just like a Crystal Light box but this handles JUST the rounded corners, no extra padding, module title, or anything
+*/
+.rounded-box {
+    position:relative;
+}
+
+.rounded-box .tl, .rounded-box .tr, .rounded-box .bl, .rounded-box .br {
+    display:block;
+    position:absolute;
+    z-index:0;
+}
+
+.rounded-box .hd, .rounded-box .ft {
+    position:relative;
+    z-index:1000;
+    zoom:1;
+}
+
+.rounded-14 .tl {
+    background:transparent url( https://www.imvu.com/common/img/corners/tl.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tl.png', sizingMethod='scale' );
+}
+.rounded-14 .tr {
+    right:0;    
+    background:transparent url( https://www.imvu.com/common/img/corners/tr.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tr.png', sizingMethod='scale' );
+}
+.rounded-14 .bl {
+    bottom:0;
+    background:transparent url( https://www.imvu.com/common/img/corners/bl.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/bl.png', sizingMethod='scale' );           
+}
+.rounded-14 .br {
+    bottom:0;
+    right:0;    
+    background:transparent url( https://www.imvu.com/common/img/corners/br.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/br.png', sizingMethod='scale' );   
+}
+
+.rounded-8 .tl {
+    background:transparent url( https://www.imvu.com/common/img/corners/tl8.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tl8.png', sizingMethod='scale' );
+}
+.rounded-8 .tr {
+    right:0;    
+    background:transparent url( https://www.imvu.com/common/img/corners/tr8.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/tr8.png', sizingMethod='scale' );
+}
+.rounded-8 .bl {
+    bottom:0;
+    background:transparent url( https://www.imvu.com/common/img/corners/bl8.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/bl8.png', sizingMethod='scale' );           
+}
+.rounded-8 .br {
+    bottom:0;
+    right:0;    
+    background:transparent url( https://www.imvu.com/common/img/corners/br8.png ) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://www.imvu.com/common/img/corners/br8.png', sizingMethod='scale' );   
+}
+
+.rounded-14 .tl, .rounded-14 .tr, .rounded-14 .bl, .rounded-14 .br { width:14px; height:14px; }
+.rounded-14 .bd { padding:10px 14px; }
+
+.rounded-8 .tl, .rounded-8 .tr, .rounded-8 .bl, .rounded-8 .br { width:8px; height:8px; }
+.rounded-8 .bd { padding:9px 9px 7px 9px; }
+
+/* 
+    * @Name: Form buttons
+    * @Desc: Applied to a form button to make 
+*/
+.btn-submit {
+    text-align:center;
+    float:right;
+    _display:inline;
+    margin:5px;
+    cursor:pointer;
+    cursor:hand;
+    font-weight:bold;
+    color:#444;
+    overflow:visible;
+    padding:1px;
+}
+
+/* 
+    * @Name: Ad Containers
+    * @Desc: Used to wrap an inline page advertisement
+*/
+.ad-hd, .ad-ft {
+    font:77% verdana;
+    text-transform:uppercase;
+}
+.ad-ft {
+    text-transform:none;
+}
+#mrec {
+    margin:0;
+    text-align:center;
+    width:300px;
+}
+#skyscraper {
+    margin:0;
+    text-align:center;
+    width:120px;
+}
+#leaderboard {
+    margin:0 auto;
+    text-align:center;
+    width:728px;
+}
+
+.yui-b { z-index:0; }
+
+
+/*
+ * @Name: avatar widget
+*/
+#badgeTooltip { text-align: left; width: 412px; }
+#badgeTooltip .btt-desc { background: #fcf9e4; border: 1px solid black; padding: 5px; color: black; max-height:162px; _height: 162px; overflow: hidden; }
+#badgeTooltip  a { color: blue; }
+#badgeTooltip  a:visited { color: blue; }
+#badgeTooltip .btt-flag { }
+#badgeTooltip .btt-flag a {
+    color: #563890;
+    display:block;
+    background: #fcf9e4;
+    border: 1px solid black;
+    border-bottom:none;
+    font-size: 10px;
+    padding: 0 2px 0 2px;
+}
+#badgeTooltip .btt-flag img { position: absolute; border: none;}
+#badgeTooltip .btt-flag a { text-decoration: none; }
+#badgeTooltip .btt-flag a.flag { float:left; }
+#badgeTooltip .btt-flag a.flag span { margin-left: 14px; }
+#badgeTooltip .btt-flag a.close { float:right; }
+
+#badgeTooltip .btt-spinner { background: #fcf9e4 url(https://www.imvu.com/common/img/spinner.gif) no-repeat center center; min-width: 39px; min-height: 39px; }
+
+#panel_badges .bd { background:white; border:none;}
+
+.avwidget-badge { z-index:5; cursor: pointer; cursor:hand; }
+.avwidget-badgeimg { padding: 0; border: 0; vertical-align: baseline; }
+.badge-holder { float: left; }
+
+#available_badges { width: 460px; min-height: 50px; border: 1px dashed gray; background: #eee; padding: 10px; padding-bottom:20px; }
+.badges-directions { margin-top: 2em; }
+.badgedrop-overlay {position: absolute; z-index: 150; display: none; }
+.overlaygood { background: #00ff00; opacity: 0.2; *filter: alpha(opacity=20); }
+.overlaybad { background: #ff0000; opacity: 0.4; *filter: alpha(opacity=40); }
+
+.aw2 {text-align:left;overflow:hidden;}
+.aw2 .float-wrapper {position:relative;}
+.aw2 .av_pic {float:left; overflow:hidden;margin:0;}
+.av_pic img {border:none;}
+.aw2 .badges-container {position:relative; float:right; overflow:hidden; }
+.aw2 .av_name, #bd .aw2 .av_name {
+    float:none;
+    font-weight: bold;
+    font-family:Tahoma;
+    font-size:12px;
+}
+.aw2 .av_name_c { height: 16px; line-height: 14px; }
+.badgeimg { position:absolute; cursor: pointer; cursor:hand; }
+ 
+.aw2 .infosprites { margin-top: 2px; height: 18px; }
+.infosprites img {border:none;}
+.infosprites .sprite-holder { float:left; position:relative; }
+.ageverify-sprite { width:31px; height:18px; background:url(https://www.imvu.com/common/img/badges_sprite.png) -23px -22px no-repeat; }
+.ap-sprite { width:22px; height:18px; background:url(https://www.imvu.com/common/img/badges_sprite.png) -23px -1px no-repeat; }
+.vip-sprite { width:25px; height:18px; background:url(https://www.imvu.com/common/img/badges_sprite.png) -24px -43px no-repeat; }
+.staff-sprite { width:49px; height:18px; background:url(https://www.imvu.com/common/img/staff_16px.png) no-repeat; }
+.staff_watermark_blk { background:url(https://www.imvu.com/common/img/staff_back_blk.png) no-repeat; }
+.simple-grid  .staff_watermark_blk td { background: none; }
+.badgecount-sprite {
+    width:34px;
+    height:19px;
+    background:url(https://www.imvu.com/common/img/badges_sprite.png) -60px 0px no-repeat;
+}
+.level-1 .badgecount-sprite { background-position: -60px -21px; }
+.level-2 .badgecount-sprite { background-position: -60px -42px; }
+.level-3 .badgecount-sprite { background-position: -60px -63px; }
+.level-4 .badgecount-sprite { background-position: -60px -84px; }
+.level-5 .badgecount-sprite { background-position: -60px -105px; }
+.level-6 .badgecount-sprite { background-position: -60px -126px; }
+.level-7 .badgecount-sprite { background-position: -60px -147px; }
+.level-8 .badgecount-sprite { background-position: -60px -168px; }
+.level-9 .badgecount-sprite { background-position: -60px -189px; }
+.level-10 .badgecount-sprite { background-position: -60px -210px; }
+
+.infotext {
+    margin-top: 20px;
+}
+
+#bd .infosprites .badgecount-link { text-decoration: none; }
+.infosprites .badgecount-link span {
+    display:block;
+    font-family: Tahoma;
+    color: white;
+    font-size: 10px;
+    line-height:12px;
+    position:absolute;
+    left: 17px;
+    top:3px;
+    width: 16px;
+    text-align: center;
+}
+.infosprites .level-7 span,
+.infosprites .level-8 span,
+.infosprites .level-10 span
+{ color: black; }
+
+.infosprites .level-9 span,
+.infosprites .level-10 span {
+    font-size: 8px;
+}
+
+#avatar-homepage .aw2-100 {
+    margin-top:15px;
+}
+
+.hidden {
+    display: none;
+}
+
+#avatar-popup .infosprites {
+    height: 20px;
+}
+#avatar-popup .infosprites .badgecount-link span {
+    top:3px;
+}
+
+#my-account .infosprites .badgecount-link span {
+    top:3px;
+}
+
+.aw2 a img { border:none; }
+.aw2 a { border:none; }
+
+.olstatus-container {position:absolute;}
+.aw-olstatus {position:relative;top:3px;left:-7px;}
+.olstatus-available img {
+    width:18px;
+    height:19px;
+    background:url(https://www.imvu.com/common/img/badges_sprite.png) -1px -1px no-repeat;
+}
+.olstatus-available {
+    font-weight: bold;
+    color: #115b15;
+}
+span.olstatus-available img {
+    position:relative;
+    top:4px;
+}
+.olstatus-creating {
+    font-weight: bold;
+}
+.olstatus-creating img {
+    position: relative;
+    top: 4px;
+    left: 1px;
+    width: 18px;
+    height: 19px;
+    background: url(https://www.imvu.com/common/img/badges_sprite.png) -1px -105px no-repeat;
+}
+
+    /*
+ * @Name: tag widget
+*/
+
+.tag-widget-ta, .tag-widget-t {
+    position:relative;
+    font-size:100%;
+}
+.tag-widget-ta .yui-ac-input {
+    width:99%;
+    height:65px;    
+}
+.tag-widget-ta .yui-ac-container {
+    width:99%;
+    /* position:absolute;
+    top:70px;
+    left:0px; */
+}
+.tag-widget-t .yui-ac-input {
+    width:99%;
+}
+.tag-widget-t .yui-ac-container {
+    position:absolute;
+    top:1.55em;
+    width:99%;
+    left:0px;
+}
+.tag-widget-ta .helptext, .tag-widget-t .helptext {
+    font-size:85%;
+}
+.tag-widget-ta .controls, .tag-widget-t .controls {
+    zoom:1;
+    margin:5px 0 0;
+}
+.tag-widget-ta .button-wrapper, .tag-widget-t .button-wrapper {
+    float:left;
+    width:52%;    
+}
+.tag-widget-ta .counter, .tag-widget-t .counter {
+    float:right;
+    width:46%;
+    text-align:right;    
+}
+.tag-widget-ta .counter b, .tag-widget-t .counter b {
+    background:#fff;
+    color:#000;
+    padding:0 3px;    
+}
+.yui-ac-content {
+    position:absolute;
+    width:100%;
+    border:1px solid #3f3f5f;
+    color:#000;
+    background:#eee;
+    overflow:hidden;
+    z-index:9050;
+}
+.yui-ac-content ul {
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.yui-ac-content li {
+    margin:0;
+    padding:2px 5px;
+    cursor:default;
+    white-space:nowrap;
+}
+.yui-ac-content li.yui-ac-prehighlight {
+    background:#B3D4FF;
+}
+.yui-ac-content li.yui-ac-highlight {
+    background:#757cd1;
+    color:#FFF;
+}
+
+/* GRIDS - CUSTOM */
+/* TODO : IE6 corrections */
+.yui-xt-120L .yui-b {
+    float:left;
+    width:9.2308em;*width:9.0083em;}
+.yui-xt-120L #yui-main .yui-b {
+    margin-left:10.2308em;*margin-left:9.9842em;
+}
+
+/* TODO : IE6 corrections */
+.yui-xt-120R .yui-b {
+    float:right;
+    width:9.2308em;*width:9.0083em;}
+.yui-xt-120R #yui-main .yui-b {
+    margin-right:10.2308em;*margin-right:9.9842em;
+}
+
+.yui-xt-120L #yui-main  {float:right;margin-left:-25em;/* IE: preserve layout at narrow widths */}
+.yui-xt-120R #yui-main  {float:left;margin-right:-25em;/* IE: preserve layout at narrow widths */}
+
+.yui-xg-200R .yui-xu-fixed,
+.yui-xg-250R .yui-xu-fixed,
+.yui-xg-300R .yui-xu-fixed,
+.yui-xg-336R .yui-xu-fixed { float:right;margin-right:0; }
+
+.yui-xg-200R .yui-xu-fluid { width:auto;margin-left:0;margin-right:210px;float:none; }
+.yui-xg-250R .yui-xu-fluid { width:auto;margin-left:0;margin-right:260px;float:none; }
+.yui-xg-300R .yui-xu-fluid { width:auto;margin-left:0;margin-right:310px;float:none; }
+.yui-xg-336R .yui-xu-fluid { width:auto;margin-left:0;margin-right:346px;float:none; }
+
+.yui-xg-200R .yui-xu-fixed { margin-left:-200px;width:200px;height:200px; }
+.yui-xg-250R .yui-xu-fixed { margin-left:-250px;width:250px;height:250px; }
+.yui-xg-300R .yui-xu-fixed { margin-left:-300px;width:300px;height:250px; }
+.yui-xg-336R .yui-xu-fixed { margin-left:-336px;width:336px;height:280px; }
+
+.yui-xg-200L,
+.yui-xg-250L,
+.yui-xg-300L,
+.yui-xg-336L { overflow:hidden; }
+
+.yui-xg-200L .yui-xu-fixed,
+.yui-xg-250L .yui-xu-fixed,
+.yui-xg-300L .yui-xu-fixed,
+.yui-xg-336L .yui-xu-fixed { float:left; }
+
+.yui-xg-200L .yui-xu-fluid { margin-left:210px; }
+.yui-xg-250L .yui-xu-fluid { margin-left:260px; }
+.yui-xg-300L .yui-xu-fluid { margin-left:310px; }
+.yui-xg-336L .yui-xu-fluid { margin-left:346px; }
+
+.yui-xg-200L .yui-xu-fixed { margin-right:-200px;width:200px;height:200px; }
+.yui-xg-250L .yui-xu-fixed { margin-right:-250px;width:250px;height:250px; }
+.yui-xg-300L .yui-xu-fixed { margin-right:-300px;width:300px;height:250px; }
+.yui-xg-336L .yui-xu-fixed { margin-right:-336px;width:336px;height:280px; }
+
+.yui-xg,
+.yui-xg-halves, 
+.yui-xg-1-2,
+.yui-xg-2-1,
+.yui-xg-1-3,
+.yui-xg-3-1,
+.yui-xg-thirds, 
+.yui-xg-quarters { overflow:hidden; }
+
+.yui-xg-halves .yui-xu { background:purple;width:49.1%;float:right; }
+.yui-xg-halves .yui-xu.first { float:left; }
+
+.yui-xg-1-2 .yui-xu { width:66%;float:right; }
+.yui-xg-1-2 .yui-xu.first { float:left;width:32%; }
+
+.yui-xg-2-1 .yui-xu { width:32%;float:right; }
+.yui-xg-2-1 .yui-xu.first { float:left;width:66%; }
+
+.yui-xg-1-3 .yui-xu { width:74.5%;float:right; }
+.yui-xg-1-3 .yui-xu.first { float:left;width:23.5%; }
+
+.yui-xg-3-1 .yui-xu { width:23.5%;float:right; }
+.yui-xg-3-1 .yui-xu.first { float:left;width:74.5%; }
+
+.yui-xg-thirds .yui-xu { width:32%;float:left;margin-left:2%; }
+.yui-xg-thirds .yui-xu.first { float:left;margin-left:0; }
+
+.yui-xg-quarters .yui-xu { width:23.5%;float:left;margin-left:2%; }
+.yui-xg-quarters .yui-xu.first { float:left;margin-left:0; }
+
+table.publicroom-table td { padding:5px; }
+
+#userpopup-dialog > .bd { padding: 0; }
+.userpopup-iframe { overflow: none; width: 480px; height: 430px; }
+.userpopup { color: black; margin: 1em; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 80%; }
+.userpopup .avwidget-holder { float: left; }
+.userpopup h1 { margin: 0; font-size: 130%; }
+.userpopup .user-info { margin-left: 180px; }
+.userpopup img { border: 0; }
+
+.userpopup .links { clear: both; }
+.homepage-link:visited { color: blue; }
+.homepage-img { position: relative; top: 2px; *top: 0; margin-right: 2px; }
+.userpopup .send-message { margin-top: 1em; width: 400px; }
+.userpopup textarea { display:block; width: 400px; height: 100px;}
+.userpopup label { float: right; margin-right: 1em; margin-top: 0.2em; }
+.userpopup .send-button { float: right; }
+.userpopup form { margin: 0; padding: 0; }
+.userpopup .send-status { clear: both; margin-bottom: 1em; }
+.userpopup .send-failure { color: red; }
+.userpopup .send-success { font-weight: bold; margin-top: 1em; }
+.up-addbuddy, .up-removebuddy {
+    width:16px; height:16px;
+    display:inline-block;
+    background:url(/home/images/icons_sp2.gif) no-repeat;
+    position:relative; top: 2px; *top: 0;
+}
+.up-addbuddy {
+    background-position:-50px -50px;
+}
+.up-removebuddy {
+    background-position:-50px -80px;
+}
+
+#message-dialog-iframe-wrapper {
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    border: none; 
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+#message-dialog-iframe {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#message-dialog > .bd { text-align: left; padding: 0; width: 480px; background: white; }
+.msg-chars-st { color: #666; font-size: 75%; float: right; position: relative; top: -1px; left: -1px;}
+.msg-widget .inactive { display:none; }
+.msg-widget tr { margin:0;padding:0; border:none; }
+.msg-widget td { margin:0;padding:0; border:none; vertical-align: top; text-align:left; }
+.msg-widget td.label { text-align: right; padding-right: 0.25em; }
+.msg-widget td.right { width: 340px; }
+.msg-widget table {
+    border-collapse: collapse;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    color: black;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.msg-widget input { position: relative; top: 1px; }
+.msg-widget table textarea { width: 350px; }
+.msg-widget table select { width: 354px; position: relative; top: -3px; }
+.msg-widget table input { margin-left: 0; }
+.msg-widget button { width: 8em; margin-right: 0.5em; margin-top: 0.5em; }
+.msg-widget .product-name, .msg-widget .music-title, .msg-widget .music-artist { font-weight: bold; }
+.msg-widget .note {font-size: 80%; color: #666; }
+.msg-widget .small-spacer { height: 0.5em; }
+.msg-widget .spacer { height: 1em; }
+.reset-giftlist-note { color: #888; font-size: 75%; width: 280px; margin-bottom: 10px; }
+.reset-giftlist-note a, .reset-giftlist-note a:visited { color: #888; }
+.msg-widget .message-gift {
+    margin-top: 0.5em;
+}
+
+.message-gift #giftwrap {
+    width: 198px;
+    height: 123px;
+    overflow: hidden;
+}
+.message-gift #image-holder {
+    float: left;
+    margin-right: 0.5em;
+    padding-top: 22px;
+    padding-left: 6px;
+}
+.message-gift .vip-scroll {
+    background:url(/catalog/web_images/vip_gifteffect.gif) no-repeat;
+    width:211px;
+    height:137px;
+    padding-top: 7px;
+    padding-left: 6px;
+}
+.message-gift .vip-gold {
+    background:url(/catalog/web_images/vip_metal_gold.gif) no-repeat;
+    width:211px;
+    height:137px;
+    padding-top: 7px;
+    padding-left: 6px;
+}
+.message-gift .vip-silver {
+    background:url(/catalog/web_images/vip_metal_silver.gif) no-repeat;
+    width:211px;
+    height:137px;
+    padding-top: 7px;
+    padding-left: 6px;
+}
+
+#message-dialog,
+#avatar-popup,
+#buy-gift-complete,
+#imvu-ok-message,
+#msgWait {
+    border: none;
+}
+
+#avatar-popup {
+    text-align:left;
+    color:#575757;
+    font-family: Tahoma;
+    font-size: 14px;
+    width:480px;
+}
+#avatar-popup .hd {
+    text-transform: none;
+}
+
+a.badgecount-link:link {
+    text-decoration: none;
+}
+
+#avatar-popup .av_pic {
+    margin-left: 16px;
+    margin-top: 16px;
+    float:left;
+}
+#avatar-popup .av_pic img {
+    width:160px;
+    height:220px;
+}
+
+#show-checkboxes {
+    color:black;
+    position:absolute;
+    left:500px;
+    top:81px;
+}
+#show-checkboxes a {
+    color: black;
+}
+
+#show-checkboxes .disabled,
+#show-checkboxes .disabled a
+{
+    color:gray;
+}
+
+#show-checkboxes input {
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+}
+#show-checkboxes img {
+    position: relative;
+    top: 5px;
+}
+
+#avatar-popup .userinfo {
+    margin-left: 191px;
+    margin-top: 13px;
+}
+#avatar-popup .av_name {
+    font-weight: bold;
+    font-size: 16px;
+}
+#avatar-popup .registered {
+    font-size: 10px;
+}
+#avatar-popup .infosprites {
+    margin-top: 4px;
+}
+#avatar-popup .availability {
+    margin-top: 10px;
+}
+
+
+
+#avatar-popup #my_shop {
+    display:none;
+    width:148px;
+    height:13px;
+    line-height:10px;
+    border:none;
+    background:transparent url(https://www.imvu.com/common/img/creator_shop_icon.png) no-repeat;
+    cursor:pointer;
+    margin-top:10px;
+    position:relative;
+    left:-2px;
+    padding-left:16px;
+    font-size:12px;
+}
+
+#avatar-popup #my_shop span {
+    float:left;
+    text-decoration:underline;
+    color:#295d7d;
+    padding-right:14px;
+    background:transparent url(https://www.imvu.com/common/img/creator_shop_arrow.png) top right no-repeat;
+}
+
+
+#avatar-popup .infolinks {
+    margin-top: 20px;
+}
+#avatar-popup .badgecount-link {
+    text-decoration: none;
+}
+#avatar-popup .badges-text,
+#avatar-popup .badges-moreinfo-text
+{
+    font-size: 10px;
+    padding-top: 7px;
+}
+#avatar-popup .badges-moreinfo-text {
+    float: right;
+}
+#avatar-popup .badges-area-holder {
+    margin-left: 16px;
+    width:440px;
+}
+#avatar-popup .badges-area {
+    width:440px;
+    height:100px;
+    position:relative;
+    background:url(https://www.imvu.com/common/img/badges_background.png) 0px -20px;
+    overflow:hidden;
+}
+#avatar-popup .badges-area-left {
+    position:absolute;
+    width:40px;
+    height:100px;
+    background:url(https://www.imvu.com/common/img/badgegrid_special.png);
+}
+#avatar-popup-body .infolinks {
+    position:absolute;
+    left:20px;
+    bottom:15px;
+    width: 280px;
+    height: 33px;
+    font-size: 11px;
+}
+#avatar-popup-body .infolinks>div {
+    position: relative;
+}
+#avatar-popup-body .infolinks a {
+    display: inline-block;
+    color: #888899;
+    padding-right: 4px;
+    white-space: nowrap;
+}
+#avatar-popup-invite-icon,
+#avatar-popup-send-message-icon,
+#avatar-popup-visit-homepage-icon,
+#avatar-popup-add-buddy-icon,
+#avatar-popup-remove-buddy-icon,
+#avatar-popup-flag-icon,
+#avatar-popup-block-user-icon,
+#avatar-popup-see-my-albums-icon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+}
+#avatar-popup-invite-icon {
+    background: transparent url(https://www.imvu.com/common/img/sprites/card_icons.png) no-repeat -1px -1px;
+}
+#avatar-popup-send-message-icon {
+    background: transparent url(https://www.imvu.com/common/img/sprites/card_icons.png) no-repeat -19px -1px;
+}
+#avatar-popup-visit-homepage-icon {
+    background: transparent url(https://www.imvu.com/common/img/sprites/card_icons.png) no-repeat -37px -1px;
+}
+#avatar-popup-add-buddy-icon {
+    background: transparent url(https://www.imvu.com/common/img/sprites/card_icons.png) no-repeat -55px -1px;
+}
+#avatar-popup-remove-buddy-icon {
+    background: transparent url(https://www.imvu.com/common/img/sprites/card_icons.png) no-repeat -73px -1px;
+}
+#avatar-popup-flag-icon {
+    background: transparent url(https://www.imvu.com/common/img/sprites/card_icons.png) no-repeat -92px -1px;
+}
+#avatar-popup-block-user-icon {
+    background: transparent url(https://www.imvu.com/common/img/sprites/card_icons.png) no-repeat -109px -1px;
+}
+#avatar-popup-see-my-albums-icon {
+    background: transparent url(https://www.imvu.com/common/img/icon-photo.png) no-repeat;
+}
+#avatar-popup-ok {
+    position:absolute;
+    right:20px;
+    bottom:15px;
+}
+#avatar-popup .bottom-filler,
+#ppc-redemption-dialog .bottom-filler {
+    margin-bottom:60px;
+}
+
+#message-dialog_c .underlay,
+#avatar-popup_c .underlay,
+#ppc-redemption-dialog .underlay,
+#imvu-ok-message_c .underlay,
+#buy-gift-complete_c .underlay,
+#msgWait_c .underlay
+{ left: -3px; }
+
+#message-dialog,
+#avatar-popup,
+#imvu-ok-message,
+#buy-gift-complete {
+    width: 480px;
+}
+
+.imvu-panel .yui-panel {
+    border:0;
+}
+
+#buySingleSongConfirm .hd, 
+#buySuccess .hd, 
+#message-dialog .hd, 
+#imvu-ok-message .hd,
+#buy-gift-complete .hd,
+#msgWait .hd,
+#avatar-popup .hd,
+#notifier-popup .hd,
+#message-error .hd,
+#ppc-redemption-dialog .hd,
+.imvu-panel .yui-panel .hd {
+    background-image: None;
+    background-color: #57574F;
+    color: white;
+    text-align: left;
+    border: 2px solid #57574F;
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+#buySingleSongConfirm .container-close, 
+#buySuccess .container-close, 
+#message-dialog .container-close, 
+#imvu-ok-message .container-close,
+#buy-gift-complete .container-close,
+#msgWait .container-close,
+#avatar-popup .container-close,
+#notifier-popup .container-close,
+#message-error .container-close,
+#ppc-redemption-dialog .container-close,
+.imvu-panel .yui-panel .container-close
+ {
+    margin-top:4px;
+    margin-right:2px;
+}
+
+#buySingleSongConfirm .bd, 
+#buySuccess .bd, 
+#message-dialog .bd, 
+#imvu-ok-message .bd,
+#buy-gift-complete .bd,
+#msgWait .bd,
+#avatar-popup .bd,
+#message-error .bd,
+#ppc-redemption-dialog .bd,
+.imvu-panel .yui-panel .bd {
+    color: #5e5f5a;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #808080;
+    border-width: 0 1px;
+    margin: 0 -1px;
+}
+
+#message-error .bd {
+    text-align: left;
+}
+
+#msgWait img {
+    padding:0;
+    margin:3px;
+}
+#msgWait .bd { text-align: center; }
+
+#msgWait .loading {
+    height: 11px;
+    width: 43px;
+    background:transparent url(https://www.imvu.com/common/img/grey_progress.gif);
+}
+
+#buySingleSongConfirm #btn_purchase {
+
+    cursor: pointer; cursor: hand;
+
+    top: -10px;
+
+    border: 0px;
+    width: 53px;
+    height: 22px;
+    margin-right: 4px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -7px -13px;
+}
+
+#buySingleSongConfirm #btn_buygift {
+    cursor: pointer; cursor: hand;
+
+    top: -10px;
+
+    border: 0px;
+    width: 90px;
+    height: 22px;
+    margin-right: 4px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -67px -13px;
+}
+
+#buySingleSongConfirm #btn_cancel {
+    cursor: pointer; cursor: hand;
+
+    top: -10px;
+
+    border: 0px;
+    width: 75px;
+    height: 22px;
+    margin-right: 4px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -164px -13px;
+}
+
+#buyAlbumConfirm #btn_purchase_album {
+
+    cursor: pointer; cursor: hand;
+
+    top: -10px;
+
+    border: 0px;
+    width: 53px;
+    height: 22px;
+    margin-right: 4px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -7px -13px;
+}
+
+#buyAlbumConfirm #btn_buygift_album {
+    cursor: pointer; cursor: hand;
+
+    top: -10px;
+
+    border: 0px;
+    width: 90px;
+    height: 22px;
+    margin-right: 4px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -67px -13px;
+}
+
+#buyAlbumConfirm #btn_cancel_album {
+    cursor: pointer; cursor: hand;
+
+    top: -10px;
+
+    border: 0px;
+    width: 75px;
+    height: 22px;
+    margin-right: 4px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -164px -13px;
+}
+
+
+
+#message-dialog .Buy_Gift_Button {
+    float: left;
+    cursor: pointer; cursor: hand;
+    padding: 0; margin: 0;
+    border: 0px;
+    width: 136px;
+    height: 27px;
+    margin-right: 4px;
+    background:transparent url(https://www.imvu.com/common/img/button_silver_redsquare.png) no-repeat;
+    font: 13px 'Century Gothic', Arial, sans;
+    color: #262626;
+    padding-left: 24px;
+    text-align: left;
+}
+
+#message-dialog .Send_Message {
+    float: left;
+    cursor: pointer; cursor: hand;
+    padding: 0; margin: 0;
+    border: 0px;
+    width: 112px;
+    height: 27px;
+    margin-right: 4px;
+    background: url(https://www.imvu.com/common/img/button_silver_redsquare.png) no-repeat;
+    font: 13px 'Century Gothic', Arial, sans;
+    color: #262626;
+    padding-left: 24px;
+    text-align: left;
+}
+
+
+#message-dialog #mw_btn_cancel {
+    float: left;
+    cursor: pointer; cursor: hand;
+    padding: 0; margin: 0;
+    border: 0px;
+    width: 112px;
+    height: 27px;
+    margin-right: 4px;
+    background: url(https://www.imvu.com/common/img/button_silver_greysquare.png) no-repeat;
+    font: 13px 'Century Gothic', Arial, sans;
+    color: #262626;
+    padding-left: 24px;
+    text-align: left;
+}
+
+body .yui-panel .container-close {
+    border: 0px;
+    width: 12px;
+    height: 12px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -103px -123px;
+}
+
+#buySuccess #btn_purchase_ok, 
+#imvu-ok-message button,
+#buy-gift-complete button {
+    border: none;
+    width: 57px;
+    height: 27px;
+    text-align: left;
+    padding-left: 23px;
+    font: 13px 'Century Gothic', Arial, sans;
+    color: #262626;
+    background:transparent url(/music/img/OK_button.png) no-repeat scroll 0px 0px;
+    cursor: pointer;
+}
+#imvu-ok-message button,
+#buy-gift-complete button {
+    margin-top:1.5em;
+    position: absolute;
+    right:0.5em;
+}
+
+#message-error button {
+    border: 0px;
+    width: 76px;
+    height: 27px;
+    margin-left: 40px;
+    background:transparent url(/music/img/btn_gifting.png) no-repeat scroll -7px -116px;
+    cursor: pointer; cursor: hand;
+}
+
+#buySuccess #btn_download {
+    border: 0px;
+    width: 136px;
+    height: 27px;
+    left: 40px;
+    background:transparent url(/music/img/button_download_now.png) no-repeat scroll 0px 0px;
+    cursor: pointer; cursor: hand;
+}
+
+#buySuccess #btn_download_later {
+    border: 0px;
+    width: 138px;
+    height: 27px;
+    background:transparent url(/music/img/button_download_later.png) no-repeat scroll 0px 0px;
+    cursor: pointer; cursor: hand;
+}
+
+img.product {
+    display:block;
+    width:100px;
+    height:80px;
+}
+img.music {
+    display:block;
+    width:80px;
+    height:80px;
+    border:1px solid black;
+    position:relative;
+    left: 10px;
+}
+.message-gift .sidestuff {
+    font-family: verdana,arial,helvetica,sans-serif;
+    padding-top: 35px;
+    font-size: 9.6px;
+    text-align: center;
+}
+#giftwrap .sidestuff .giftlink {
+    color: #111133;
+    text-decoration: underline;
+}
+.message-send-status { margin-top: 1em; }
+
+.message-send-status.bad {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 1em;
+}
+
+#sorting {
+    font-size: 80%;
+    margin-bottom: 0.25em;
+}
+#sorting label {
+    font-weight: bold;
+    padding-right: 0.25em;
+    margin-left: 0.5em;
+}
+#filter {
+    width: 20em;
+}
+
+#message-dialog #mw-date label {
+    cursor:pointer;
+}
+
+#message-dialog #mw-date {
+    font-size:11px;
+    margin-bottom:15px;
+}
+
+#message-dialog #mw-date td {
+    height:50px;
+    padding-top:10px;
+}
+
+#message-dialog #mw-date div {
+    height:21px;
+}
+
+#message-dialog #mw-date select {
+    width:240px;
+    vertical-align:middle;
+}
+
+#spinner {
+    position: absolute;
+    display: block;
+    background: transparent url(https://www.imvu.com/common/img/spinner.gif) no-repeat center center;
+    width: 41px;
+    height: 41px;
+    z-index: 10;
+    opacity: 0.6; /* 60% is the preferred opacity for light spinners on dark backgrounds */
+}
+
+#panel_badges #avatar-popup.v2 { /* Account Settings page */
+    position: static;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: none;
+    box-shadow: none;
+}
+    #panel_badges #avatar-popup.v2 #avatar-popup-ok,
+    #panel_badges #avatar-popup.v2 #avatar-popup-body .infolinks {
+        display: none;
+        visibility: hidden;
+    }
+#avatar-popup.v2 { display: none; }
+    #avatar-popup.v2 #avatar-popup-body { position: relative; }
+        /* Can't include https://www.imvu.com/common/css/new-visd-base.css in profile pages yet. */
+        #avatar-popup.v2 #avatar-popup-body .badges-moreinfo-text a {
+            color: #4499fe;
+            text-decoration: none;
+        }
+            #avatar-popup.v2 #avatar-popup-body .badges-moreinfo-text a:hover { text-decoration: underline; }
+        #avatar-popup.v2 #avatar-popup-body .button-bar {
+            margin: 15px 11px 10px 15px;
+            position: relative;
+        }
+        #avatar-popup.v2 #avatar-popup-body .infolinks {
+            margin-top: 0;
+            position: static;
+            display: inline-block;
+            width: 285px;
+        }
+            #avatar-popup.v2 #avatar-popup-body .infolinks a { text-decoration: none; cursor: pointer; }
+            #avatar-popup.v2 #avatar-popup-body .infolinks #avatar-popup-send-message:hover,
+            #avatar-popup.v2 #avatar-popup-body .infolinks #avatar-popup-visit-homepage:hover,
+            #avatar-popup.v2 #avatar-popup-body .infolinks #avatar-popup-add-buddy:hover,
+            #avatar-popup.v2 #avatar-popup-body .infolinks #avatar-popup-flag:hover,
+            #avatar-popup.v2 #avatar-popup-body .infolinks #avatar-popup-block-user:hover {
+                text-decoration: underline;
+            }
+    #avatar-popup.v2 #avatar-popup-ok {
+        right: 0;
+        top: 50%;
+        margin-top: -14px;
+    }

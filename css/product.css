@@ -1,0 +1,506 @@
+#product_widget_overlay {
+    visibility:hidden;
+    position:absolute;
+    left:-5000px;
+    top:-5000px;
+    overflow:hidden;
+    border:6px solid #b7b700;
+    width:102px;
+    _width:102px;
+    height:118px;
+    _height:118px;
+}
+
+#product_widget_overlay .bd {
+    margin:0 !important;
+    padding:0 !important;
+    z-index:1;
+}
+
+#product_widget_overlay .product {
+    margin:-4px !important;
+    
+}
+     
+#product_widget_overlay .expander {
+    cursor:hand;
+    width:30px;
+    height:30px;
+    position:absolute;
+    right:-2px;top:-2px;
+    z-index:100;
+    border:2px solid #ccc;
+    background:#fff url(https://www.imvu.com/common/skin/base/buttons/btn_product_widget_expand.gif) 0 30px;
+}
+
+#product_widget_overlay .expander.expanded {
+    background:#fff url(https://www.imvu.com/common/skin/base/buttons/btn_product_widget_expand.gif) 0 0;
+}
+
+#product_widget_data {
+    position:absolute;
+    background:#fff;
+    z-index:1;
+    padding:5px;
+    font-size:11px;
+    text-align:left;
+    border-top:1px solid #ccc;
+}
+
+#product_widget_data #pwd_loading {
+    position:absolute;
+    left:0;
+    top:0;
+    background:#eee;
+    text-align:center;
+}
+
+#product_widget_data .hd {
+    margin-bottom:4px;
+}
+
+#product_widget_data .hd a {
+    font-weight:bold;
+    color:#015FA8;
+    text-decoration:none;
+}
+
+#product_widget_data .hd a:hover {
+    color:#002E51;
+    text-decoration:underline;
+}
+
+#product_widget_data #pwd_desc {
+    line-height:16px;
+    margin-bottom:5px;
+}
+
+#product_widget_data .bd a {
+    font-weight:normal;
+    color:#015FA8;
+    text-decoration:none;
+    font-size:10px;
+}
+
+#product_widget_data .bd a:hover {
+    text-decoration:underline;
+}
+           
+#product_widget_data #pwd_icons {
+    border-top:1px solid #e5e5e5;
+    padding-top:4px;
+    margin-top:4px;
+    padding-bottom:4px;
+}
+
+#product_widget_data .ft {
+    border-top:1px solid #e5e5e5;
+    padding-top:4px;
+    height:17px;
+    width:190px;
+}
+
+
+#product_widget_data #pwd_tags {
+    padding:5px 0;
+    border-top:1px solid #e5e5e5;
+    margin-bottom:3px;
+}
+
+#product_widget_data span.tag {
+    vertical-align:middle;
+}
+
+#product_widget_data a.tag-link {
+}
+
+#product_widget_data #pwd_tags_add {
+    margin-bottom:5px;
+}
+
+#product_widget_data #pwd_tags_add_link {
+
+}
+
+#product_widget_data #pwd_tags_add img {
+    margin-right:3px;
+    vertical-align:middle;
+}
+
+#multi_tag #mt_tags_add_form {
+    font-size:11px;
+}
+
+#multi_tag #mt_tags_add_form #mt_txt_addtag {
+    width:85px;
+}
+
+#multi_tag #mt_tags_add_link a {
+    color:#015FA8;
+    text-decoration:none;
+    font-size:11px;
+}
+
+#widget_tagger #no_selected_products {
+    font-size:11px;
+}
+
+#widget_tagger h3 {
+    margin:5px 0; 
+}
+
+#widget_tagger #mt_tags_add_link {
+    margin:10px 0 15px;
+}
+
+#widget_tagger ul {
+    margin-left:5px;
+}
+
+#products div.product {
+    margin:4px 4px 8px;
+}
+
+div.product {
+    background:#FFFFFF none repeat scroll 0 0;
+    border:1px solid #CCCCCC;
+    float:left;
+    height:150px;
+    margin:5px;
+    position:relative;
+    text-align:left;
+    width:109px;
+    z-index:0;
+    font-family:arial,helvetica,clean,sans-serif;
+    font-size:13px;
+    font-style:normal;
+    font-weight:normal;
+    line-height:1.231;
+    font-size-adjust:none;
+}
+
+div.product p {
+    color:#5E5F5A;
+    font-size:10px;
+    height:13px;
+    line-height:11px;
+    margin:0 !important;
+    overflow:hidden;
+    padding-left:3px;
+    padding-right:3px;
+    width:94px;
+}
+
+div.product div.pro {
+    border:medium none;
+    height:auto;
+    left:-1px;
+    position:absolute;
+    top:-9px;
+}
+
+div.product div.pro img {
+    border:medium none;
+}
+
+div.product span.product-img, div.product img.product-img {
+    border:1px solid #CCCCCC;
+    margin:3px 3px 0;
+}
+
+div.product a {
+    color:#015FA8;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+div.product ul {
+    margin:0 0 3px 3px;
+    padding:0;
+    overflow:hidden;
+}
+
+div.product div.bottom-line {
+    height:15px;
+    overflow:hidden;
+    position:relative;
+}
+
+div.product div.bottom-line-vip-exp {
+    height:27px;
+    overflow:hidden;
+}
+
+div.product .price {
+    font-size:11px;
+    position:static;
+}
+
+div.product ul.buttons li {
+    background:url(https://www.imvu.com/common/img/buttons/product_buttons.gif);
+    cursor:pointer;
+    float:left;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+
+div.product ul.buttons li.blank {
+    background:transparent;
+    width:57px;
+    height:20px;
+}
+
+div.product ul.buttons li.tryon {
+    width:45px;
+    height:20px;
+    margin:0;
+    background-position:0px 0px;
+}
+
+div.product ul.buttons li.getit {
+    /*width:59px;
+    background-position:59px 0px;*/
+    width:57px;
+    background-position:57px 0px;
+    height:20px;
+}
+
+div.product div.sales {
+    height:13px;
+    overflow:hidden;
+}
+
+div.sales img.vis, div.sales span.sales-label, div.sales span.sales-count {
+    vertical-align:middle;
+}
+
+.icon-add-to-cart {
+ 	position: absolute;
+ 	left: 2px;
+}
+
+.add_to_cart_sprite {
+    background-position:-31px 0px;
+    background-image:url(https://www.imvu.com/common/img/sprites/wishgift_sprite.png);
+	width:14px;
+	height:14px;
+}
+
+.add_to_wishlist_link {
+ 	position: absolute;
+ 	left: 18px;
+}
+
+.add_to_wishlist_sprite {
+    background-position:-49px 0px;
+    background-image:url(https://www.imvu.com/common/img/sprites/wishgift_sprite.png);
+	width:18px;
+	height:14px;
+}
+
+/* this is a temporary patch to a change in imvu.css that caused
+   the hd test in the product wishlist "adding" candy stripe dialog
+   to be unreadable... */
+#buySingleSongConfirm .hd, 
+#buySuccess .hd, 
+#buy-gift-complete .hd, 
+#shopWait .hd, #message-error .hd {
+	color:#555;
+}
+
+div.product.in-inventory {
+    border:1px solid #0000ff;
+    background:#e8e8ff;
+}
+
+div.in-inventory div.no-sales {
+    font-size:11px;
+    line-height:23px;
+    font-weight:bold;
+    text-align:center;
+}
+
+div.product div.stat {
+    font-size:10px;
+}
+
+/* Popup dialogs */
+
+div#shopConfirm, div#cartDialog {
+	color:#5E5F5A;
+	text-align:left;
+}
+
+div#shopConfirm.discounted #confirm_price, div#cartDialog.discounted #cart_price {
+    text-decoration: line-through;
+    font-style:italic;
+}
+
+div#shopConfirm #confirm_discount, div#cartDialog #cart_discount {
+    display:none;
+}
+
+div#shopConfirm.discounted #confirm_discount, div#cartDialog.discounted #cart_discount {
+    display:inline;
+    font-weight:bold;
+    color:red;
+    margin-left:5px;
+}
+
+div#shopConfirm #confirm_discount_wrapper, div#cartDialog #cart_discount_wrapper {
+    display:none;
+    font-size:11px;
+    color:red;
+    font-weight:bold;
+    margin-top:2px;
+}
+
+div#shopConfirm.discounted #confirm_discount_wrapper, div#cartDialog.discounted #cart_discount_wrapper {
+    display:block;
+}
+
+#dlgShop, #shopConfirm, #cartDialog {
+    text-align:left;
+}
+
+#shopConfirm h2 span, #cartDialog h2 span {
+    vertical-align:baseline;
+}
+
+#dlgShop button {
+    color:#000;
+}
+
+#dlgShop .yui-push-button.default button {
+    color:#ff0000;
+    font-weight:bold;
+}
+
+#dlgShop div.hd, #shopWait div.hd, #shopConfirm div.hd, #cartDialog div.hd {
+    background:transparent url(https://www.imvu.com/common/img/sam.gif) repeat-x scroll 0pt -200px;
+}
+
+#dlgShop .bd {
+    overflow:hidden;
+    font-size:11px;
+}
+
+#dlgShop h3 {
+    font-weight:bold;
+    margin-top:0;
+}
+
+#dlgShop .bd img, #shopConfirm .bd img, #cartDialog .bd img {
+    float:left;
+    margin-right:5px;
+    border:1px solid #ccc;
+}
+
+#dlgShop .bd p.shop-try {
+    clear:both;
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+}
+
+#shopConfirm div.bd div, #cartDialog div.bd div {
+    margin-top:10px;
+    text-align:right;
+}
+
+#shopConfirm h2, #cartDialog h2 {
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+#shopConfirm #confirm_disable {
+    font-size:10px;
+    margin-top:5px;
+    text-align:center;
+}
+
+#shopConfirm #audio_warning {
+    font-size:10px;
+    margin-top:5px;
+    text-align:center;
+    color:#A44;
+}
+
+#shopConfirm label, #cartDialog label {
+    margin-left:5px;
+}
+
+#shopConfirm #btn_purchase, #cartDialog #btn_dlg_add {
+    font-weight:bold;
+    font-size:12px;
+}
+
+#shopConfirm #btn_cancel, #cartDialog #btn_dlg_add_cancel {
+    font-size:11px;
+}
+
+#shopConfirm #cb_line, #cartDialog #cb_cart_line {
+    margin-top:15px;
+}
+
+#shopConfirm strong {
+    font-size:11px;
+    font-weight:bold;
+}
+
+#web_inventory_refresh_swf {
+    display:block;
+    position:absolute;
+    left: -1000px;
+}
+
+div.product span.sales-label, div.product span.sales-count {
+    font-weight:normal;
+    font-size:9px;
+}
+
+div.product div.price-wrapper img {
+    vertical-align:middle;
+}
+
+div.product div.price-wrapper {
+    height:17px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:70px;
+    overflow:hidden;
+    text-align:right;
+    padding-right:3px;
+    vertical-align:middle;
+}
+
+div.product div.discount {
+    background:url(https://www.imvu.com/common/img/timer/product_sale_hd.png) no-repeat;
+    width:111px;
+    height:20px;
+    display:none;
+    position:absolute;
+    left:-1px;
+    top:-16px;
+    text-align:right;
+}
+
+div.product div.discount span {
+    color:#fff;
+    font-size:10px;
+    margin-right:2px;
+}
+
+#products div.product.discounted {
+    margin-top:17px;
+}
+
+div.discounted div.discount {
+    display:block;
+}
+
+#products div.pagenav {
+    border:none;
+}
